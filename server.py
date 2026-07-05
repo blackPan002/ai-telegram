@@ -46,7 +46,7 @@ from telegram.ext import (
 # прямо в os.environ.get("...", "СЮДА_ЗНАЧЕНИЕ") вторым аргументом.
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8322782866:AAGIVaPDeU_dU601ryIm2qJltWXBBVcIV5M")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
-WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://blackpan002.github.io/-/")
+WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://blackpan002.github.io/taro/")
 # ==================================
 
 FREE_REQUESTS_PER_DAY = 3
