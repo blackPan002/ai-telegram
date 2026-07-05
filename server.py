@@ -44,9 +44,9 @@ from telegram.ext import (
 # ==== КЛЮЧИ БЕРУТСЯ ИЗ ПЕРЕМЕННЫХ ОКРУЖЕНИЯ (настраиваются на Render, см. инструкцию) ====
 # Для локального теста на своём компьютере можно временно вписать значения
 # прямо в os.environ.get("...", "СЮДА_ЗНАЧЕНИЕ") вторым аргументом.
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "ВСТАВЬ_СЮДА_ТОКЕН_ОТ_BOTFATHER")
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "ВСТАВЬ_СЮДА_СВОЙ_API_КЛЮЧ_GROQ")
-WEBAPP_URL = os.environ.get("WEBAPP_URL", "ВСТАВЬ_СЮДА_HTTPS_ССЫЛКУ_НА_MINI_APP")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8322782866:AAGIVaPDeU_dU601ryIm2qJltWXBBVcIV5M")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
+WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://blackpan002.github.io/-/")
 # ==================================
 
 FREE_REQUESTS_PER_DAY = 3
